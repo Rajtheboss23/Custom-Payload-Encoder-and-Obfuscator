@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payload Obfuscation Framework</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Payload Obfuscation & Evasion Framework</h1>
+
+    <form method="POST">
+        <textarea name="payload" placeholder="Enter payload..." required></textarea>
+        <br>
+        <button type="submit">Process</button>
+    </form>
+
+    {% if results %}
+    <div class="results">
+        <h2>Results</h2>
+
+        {% for key, value in results.items() %}
+            <div class="card">
+                <h3>{{ key }}</h3>
+                <p>{{ value }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>

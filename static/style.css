@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #38bdf8;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background: #38bdf8;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
